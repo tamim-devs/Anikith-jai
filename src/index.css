@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  @apply bg-black;
+}
+
+nav {
+  @apply bg-black flex justify-between items-center py-4 px-8;
+}
+
+img{
+  @apply w-full h-full object-cover
+}
