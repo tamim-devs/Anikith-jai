@@ -26,7 +26,7 @@ const About = () => {
             </motion.div>
 
             {/* Experience + Education */}
-            <div className="flex flex-col lg:flex-row gap-10 w-full">
+            <div className=" flex flex-col lg:flex-row gap-10 mt-[-50px] w-full">
               <motion.div
                 initial={{ opacity: 0, x: -60 }}
                 whileInView={{ opacity: 1, x: 0 }}
